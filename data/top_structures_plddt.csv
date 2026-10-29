@@ -7,14 +7,14 @@ rank,name,molecule_class,length,mean_plddt,pdb_file
 6,TFR1_DARPIN_B02,single_chain,123,0.9,C:\Users\user\.gemini\antigravity\scratch\tfr1_binder_design\scripts\..\structures\TFR1_DARPIN_B02.pdb
 7,TFR1_VHH_A03,nanobody,116,0.9,C:\Users\user\.gemini\antigravity\scratch\tfr1_binder_design\scripts\..\structures\TFR1_VHH_A03.pdb
 8,TFR1_AFFIBODY_C02,single_chain,57,0.9,C:\Users\user\.gemini\antigravity\scratch\tfr1_binder_design\scripts\..\structures\TFR1_AFFIBODY_C02.pdb
-9,TFR1_DARPIN_B03,single_chain,123,0.9,C:\Users\user\.gemini\antigravity\scratch\tfr1_binder_design\scripts\..\structures\TFR1_DARPIN_B03.pdb
+9,TFR1_VHH_A06,nanobody,117,0.9,C:\Users\user\.gemini\antigravity\scratch\tfr1_binder_design\scripts\..\structures\TFR1_VHH_A06.pdb
 10,TFR1_MINI_D04,single_chain,48,0.6,C:\Users\user\.gemini\antigravity\scratch\tfr1_binder_design\scripts\..\structures\TFR1_MINI_D04.pdb
 11,TFR1_VHH_A04,nanobody,118,0.9,C:\Users\user\.gemini\antigravity\scratch\tfr1_binder_design\scripts\..\structures\TFR1_VHH_A04.pdb
 12,TFR1_AFFIBODY_C03,single_chain,57,0.6,C:\Users\user\.gemini\antigravity\scratch\tfr1_binder_design\scripts\..\structures\TFR1_AFFIBODY_C03.pdb
-13,TFR1_DARPIN_B04,single_chain,123,0.9,C:\Users\user\.gemini\antigravity\scratch\tfr1_binder_design\scripts\..\structures\TFR1_DARPIN_B04.pdb
+13,TFR1_VHH_A07,nanobody,116,0.9,C:\Users\user\.gemini\antigravity\scratch\tfr1_binder_design\scripts\..\structures\TFR1_VHH_A07.pdb
 14,TFR1_VHH_A05,nanobody,117,0.9,C:\Users\user\.gemini\antigravity\scratch\tfr1_binder_design\scripts\..\structures\TFR1_VHH_A05.pdb
 15,TFR1_MINI_D05,single_chain,50,0.5,C:\Users\user\.gemini\antigravity\scratch\tfr1_binder_design\scripts\..\structures\TFR1_MINI_D05.pdb
-16,TFR1_DARPIN_B05,single_chain,123,0.9,C:\Users\user\.gemini\antigravity\scratch\tfr1_binder_design\scripts\..\structures\TFR1_DARPIN_B05.pdb
+16,TFR1_MINI_D06,single_chain,56,0.8,C:\Users\user\.gemini\antigravity\scratch\tfr1_binder_design\scripts\..\structures\TFR1_MINI_D06.pdb
 17,TFR1_AFFIBODY_C04,single_chain,57,0.9,C:\Users\user\.gemini\antigravity\scratch\tfr1_binder_design\scripts\..\structures\TFR1_AFFIBODY_C04.pdb
 18,TFR1_MINI_D03,single_chain,40,0.6,C:\Users\user\.gemini\antigravity\scratch\tfr1_binder_design\scripts\..\structures\TFR1_MINI_D03.pdb
 19,TFR1_AFFIBODY_C05,single_chain,57,0.6,C:\Users\user\.gemini\antigravity\scratch\tfr1_binder_design\scripts\..\structures\TFR1_AFFIBODY_C05.pdb
