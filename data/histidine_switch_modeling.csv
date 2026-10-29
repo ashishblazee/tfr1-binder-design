@@ -1,0 +1,5 @@
+Architecture,Num Interfacial His,Target Counterpart,Repulsion pH 7.4 (kcal/mol),Repulsion pH 6.0 (kcal/mol),Delta G Repulsion (kcal/mol),Theoretical Fold Kd Drop,Competition Gate 2 Status
+Single His (Baseline),1,Arg339 (+1),0.17,1.5,1.34,9.6,INSUFFICIENT
+His-His Dyad vs Arg339,2,Arg339 (+1),0.33,3.01,2.68,91.2,MODERATE (Risk of Residual Binding)
+His-His Dyad vs Lys344,2,Lys344 (+1),0.33,3.01,2.68,91.2,MODERATE (Risk of Residual Binding)
+Cooperative His Triad vs Arg339/Lys344,3,Arg339 + Lys344 (+2),1.0,9.03,8.03,759776.7,EXCELLENT (Complete Shutoff)
