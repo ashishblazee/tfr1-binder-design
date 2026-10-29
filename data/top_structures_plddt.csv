@@ -1,0 +1,6 @@
+rank,name,molecule_class,length,mean_plddt,pdb_file
+1,TFR1_VHH_A01,nanobody,118,0.9,C:\Users\user\.gemini\antigravity\scratch\tfr1_binder_design\scripts\..\structures\TFR1_VHH_A01.pdb
+2,TFR1_DARPIN_B01,protein,90,0.9,C:\Users\user\.gemini\antigravity\scratch\tfr1_binder_design\scripts\..\structures\TFR1_DARPIN_B01.pdb
+3,TFR1_AFFIBODY_C01,protein,57,0.9,C:\Users\user\.gemini\antigravity\scratch\tfr1_binder_design\scripts\..\structures\TFR1_AFFIBODY_C01.pdb
+4,TFR1_VHH_A02,nanobody,121,0.9,C:\Users\user\.gemini\antigravity\scratch\tfr1_binder_design\scripts\..\structures\TFR1_VHH_A02.pdb
+5,TFR1_MINI_D01,protein,45,0.6,C:\Users\user\.gemini\antigravity\scratch\tfr1_binder_design\scripts\..\structures\TFR1_MINI_D01.pdb
