@@ -64,8 +64,8 @@ def main():
     out_dir = os.path.join(os.path.dirname(__file__), "..", "structures")
     os.makedirs(out_dir, exist_ok=True)
     
-    # Fold top 5 designs covering each of the 4 scaffold classes
-    top_designs = df.head(5)
+    # Fold all 20 designs in the portfolio
+    top_designs = df
     
     results = []
     for idx, row in top_designs.iterrows():
