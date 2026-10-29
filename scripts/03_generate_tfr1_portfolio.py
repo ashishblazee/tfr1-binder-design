@@ -188,7 +188,7 @@ def get_candidates():
     candidates.append({
         "id": "TFR1_DARPIN_B01",
         "name": "TFR1_DARPIN_B01",
-        "class": "protein",
+        "class": "single_chain",
         "scaffold": "Designed Ankyrin Repeat Protein (DARPin 90aa)",
         "sequence": seq_06,
         "switch_motif": "Repeat-1 H3-H4 dyad + F6 aromatic anchor",
@@ -205,7 +205,7 @@ def get_candidates():
     candidates.append({
         "id": "TFR1_DARPIN_B02",
         "name": "TFR1_DARPIN_B02",
-        "class": "protein",
+        "class": "single_chain",
         "scaffold": "Designed Ankyrin Repeat Protein (2-Module Concave)",
         "sequence": seq_07,
         "switch_motif": "Multi-repeat H-dyad array (R1 H3/H4 + R2 H6/H11)",
@@ -222,7 +222,7 @@ def get_candidates():
     candidates.append({
         "id": "TFR1_DARPIN_B03",
         "name": "TFR1_DARPIN_B03",
-        "class": "protein",
+        "class": "single_chain",
         "scaffold": "Designed Ankyrin Repeat Protein (Minimal 69aa)",
         "sequence": seq_08,
         "switch_motif": "Concave groove H4-H6-H11 cluster",
@@ -238,7 +238,7 @@ def get_candidates():
     candidates.append({
         "id": "TFR1_DARPIN_B04",
         "name": "TFR1_DARPIN_B04",
-        "class": "protein",
+        "class": "single_chain",
         "scaffold": "Designed Ankyrin Repeat Protein (Tyr-Phe Paratope)",
         "sequence": seq_09,
         "switch_motif": "H3-H4 dyad coupled to Y6-Y10 hydrophobic face",
@@ -254,7 +254,7 @@ def get_candidates():
     candidates.append({
         "id": "TFR1_DARPIN_B05",
         "name": "TFR1_DARPIN_B05",
-        "class": "protein",
+        "class": "single_chain",
         "scaffold": "Designed Ankyrin Repeat Protein (Tri-His Network)",
         "sequence": seq_10,
         "switch_motif": "H3-H4-H11 cooperative switch against Lys344",
@@ -278,7 +278,7 @@ def get_candidates():
     candidates.append({
         "id": "TFR1_AFFIBODY_C01",
         "name": "TFR1_AFFIBODY_C01",
-        "class": "protein",
+        "class": "single_chain",
         "scaffold": "De Novo 3-Helix Bundle (Affibody 58aa)",
         "sequence": seq_11,
         "switch_motif": "Helix-1 H6-H9-H10 triad against TfR1 Arg339",
@@ -292,7 +292,7 @@ def get_candidates():
     candidates.append({
         "id": "TFR1_AFFIBODY_C02",
         "name": "TFR1_AFFIBODY_C02",
-        "class": "protein",
+        "class": "single_chain",
         "scaffold": "De Novo 3-Helix Bundle (Inter-helical Dyad)",
         "sequence": seq_12,
         "switch_motif": "H10 / H17 / H32 electrostatic repulsion network",
@@ -306,7 +306,7 @@ def get_candidates():
     candidates.append({
         "id": "TFR1_AFFIBODY_C03",
         "name": "TFR1_AFFIBODY_C03",
-        "class": "protein",
+        "class": "single_chain",
         "scaffold": "De Novo 3-Helix Bundle (Aromatic-His Clamp)",
         "sequence": seq_13,
         "switch_motif": "Y9-H10 coupled with F14-W24 aromatic face",
@@ -320,7 +320,7 @@ def get_candidates():
     candidates.append({
         "id": "TFR1_AFFIBODY_C04",
         "name": "TFR1_AFFIBODY_C04",
-        "class": "protein",
+        "class": "single_chain",
         "scaffold": "De Novo 3-Helix Bundle (Helix-2 Sensor)",
         "sequence": seq_14,
         "switch_motif": "Helix-1 H6 / Helix-2 H23 dyad facing Lys344",
@@ -334,7 +334,7 @@ def get_candidates():
     candidates.append({
         "id": "TFR1_AFFIBODY_C05",
         "name": "TFR1_AFFIBODY_C05",
-        "class": "protein",
+        "class": "single_chain",
         "scaffold": "De Novo 3-Helix Bundle (Trp-His Hybrid)",
         "sequence": seq_15,
         "switch_motif": "H9-H10-W11 anchor with H17 repulsive switch",
@@ -354,7 +354,7 @@ def get_candidates():
     candidates.append({
         "id": "TFR1_MINI_D01",
         "name": "TFR1_MINI_D01",
-        "class": "protein",
+        "class": "single_chain",
         "scaffold": "De Novo Miniprotein (Beta-Hairpin-Helix 45aa)",
         "sequence": seq_16,
         "switch_motif": "Hairpin turn H19-H20 dyad opposing TfR1 basic residues",
@@ -368,7 +368,7 @@ def get_candidates():
     candidates.append({
         "id": "TFR1_MINI_D02",
         "name": "TFR1_MINI_D02",
-        "class": "protein",
+        "class": "single_chain",
         "scaffold": "De Novo Miniprotein (Coiled-Coil 42aa)",
         "sequence": seq_17,
         "switch_motif": "Interfacial H15-H16 dyad on amphipathic helix",
@@ -382,7 +382,7 @@ def get_candidates():
     candidates.append({
         "id": "TFR1_MINI_D03",
         "name": "TFR1_MINI_D03",
-        "class": "protein",
+        "class": "single_chain",
         "scaffold": "De Novo Miniprotein (Knottin Scaffold 40aa)",
         "sequence": seq_18,
         "switch_motif": "Loop-1 H7-H8 dyad anchored by disulfide scaffold",
@@ -396,7 +396,7 @@ def get_candidates():
     candidates.append({
         "id": "TFR1_MINI_D04",
         "name": "TFR1_MINI_D04",
-        "class": "protein",
+        "class": "single_chain",
         "scaffold": "De Novo Miniprotein (ABA Fold 48aa)",
         "sequence": seq_19,
         "switch_motif": "Beta-sheet face H27-H28 dyad + H16 sensor",
@@ -410,7 +410,7 @@ def get_candidates():
     candidates.append({
         "id": "TFR1_MINI_D05",
         "name": "TFR1_MINI_D05",
-        "class": "protein",
+        "class": "single_chain",
         "scaffold": "De Novo Miniprotein (Beta-Sheet Array 50aa)",
         "sequence": seq_20,
         "switch_motif": "Multi-strand Histidine cluster (H14, H22, H23, H43)",

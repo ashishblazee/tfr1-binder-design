@@ -70,11 +70,11 @@ def main():
     print(f"[PASS] Sequence length check: All 20 designs strictly within 10 - 250 aa (min: {df_ranked['length'].min()} aa, max: {df_ranked['length'].max()} aa).")
     
     # Rule 3: Valid molecule classes
-    valid_classes = {"protein", "nanobody", "scfv", "fab_kappa", "fab_lambda"}
+    valid_classes = {"single_chain", "nanobody", "scfv", "fab_kappa", "fab_lambda"}
     for idx, row in df_ranked.iterrows():
         m_class = row["molecule_class"]
         assert m_class in valid_classes, f"Error on {row['name']}: Class '{m_class}' not recognized by Proteinbase!"
-    print(f"[PASS] Molecule class check: All classes valid ('nanobody': {(df_ranked['molecule_class'] == 'nanobody').sum()}, 'protein': {(df_ranked['molecule_class'] == 'protein').sum()}).")
+    print(f"[PASS] Molecule class check: All classes valid ('nanobody': {(df_ranked['molecule_class'] == 'nanobody').sum()}, 'single_chain': {(df_ranked['molecule_class'] == 'single_chain').sum()}).")
     
     # Rule 4: Unique names
     assert df_ranked["name"].nunique() == num_designs, "Error: Duplicate design names detected!"
