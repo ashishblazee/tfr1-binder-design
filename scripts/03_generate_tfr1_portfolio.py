@@ -176,22 +176,20 @@ def get_candidates():
     # Rigid concave paratope, extreme thermal stability (>80 C), modular repeats
     # --------------------------------------------------------------------------
 
-    # Design 06: DARPin-TfR1-B01 (N-cap + 2 Internal Repeats + C-cap: 98 aa)
-    # N-cap: DLGKKLLEAARAGQDDEVRILMANGADVNA
-    # IR1: KDHHGFTPLHLAAFYGHLEIVEVLLKNGADVNA (engineered His3-His4, Phe6, Tyr10)
-    # C-cap: QDKFGKTAFDISIDNGNEDLAEILQKA
+    # Design 06: DARPin-TfR1-B01 (N-cap + 2 Engineered Internal Repeats + C-cap: 123 aa)
     seq_06 = (
-        "DLGKKLLEAARAGQDDEVRILMANGADVNA" # N-cap (30 aa)
-        "KDHHGFTPLHLAAFYGHLEIVEVLLKNGADVNA" # Repeat 1 (33 aa)
-        "QDKFGKTAFDISIDNGNEDLAEILQKA"     # C-cap (27 aa)
-    ) # Total: 90 aa
+        "DLGKKLLEAARAGQDDEVRILMANGADVNA"     # N-cap (30 aa)
+        "KDHHGFTPLHLAAFYGHLEIVEVLLKNGADVNA" # Repeat 1: H3-H4 dyad + F6 anchor (33 aa)
+        "KDNAGWTPLHLAASHGHLEIVEVLLKHGADVNA" # Repeat 2: W6 clamp + H11 sensor (33 aa)
+        "QDKFGKTAFDISIDNGNEDLAEILQKA"       # C-cap (27 aa)
+    ) # Total: 123 aa
     candidates.append({
         "id": "TFR1_DARPIN_B01",
         "name": "TFR1_DARPIN_B01",
         "class": "single_chain",
-        "scaffold": "Designed Ankyrin Repeat Protein (DARPin 90aa)",
+        "scaffold": "Designed Ankyrin Repeat Protein (2-Module Concave 123aa)",
         "sequence": seq_06,
-        "switch_motif": "Repeat-1 H3-H4 dyad + F6 aromatic anchor",
+        "switch_motif": "Multi-repeat H-dyad array (R1 H3/H4 + R2 H11)",
         "epitope": "Apical ridge T305-G347"
     })
 
@@ -212,50 +210,52 @@ def get_candidates():
         "epitope": "Apical ridge T305-G347"
     })
 
-    # Design 08: DARPin-TfR1-B03 (Compact 2-Repeat DARPin: 66 aa)
+    # Design 08: DARPin-TfR1-B03 (2-Repeat Engineered DARPin: 123 aa)
     seq_08 = (
-        "DLGKKLLEAARAGQDDEVRILMANGADVNA" # N-cap (30 aa)
-        "KDWHGHTPLHLAAYHGHLEIVEVLLK"     # Engineered Repeat 1 (26 aa)
-        "QDKFGKTAFDISI"                  # Minimal C-cap (13 aa)
-    )
-    # Total: 69 aa
+        "DLGKKLLEAARAGQDDEVRILMANGADVNA"     # N-cap (30 aa)
+        "KDWHGHTPLHLAAYHGHLEIVEVLLKNGADVNA" # Repeat 1: concave groove H4-H6-H11 (33 aa)
+        "KDRHGNTPLHLAAYFGHLEIVEVLLKHGADVNA" # Repeat 2: H3-Y6-F7-H11 cluster (33 aa)
+        "QDKFGKTAFDISIDNGNEDLAEILQKA"       # C-cap (27 aa)
+    ) # Total: 123 aa
     candidates.append({
         "id": "TFR1_DARPIN_B03",
         "name": "TFR1_DARPIN_B03",
         "class": "single_chain",
-        "scaffold": "Designed Ankyrin Repeat Protein (Minimal 69aa)",
+        "scaffold": "Designed Ankyrin Repeat Protein (2-Module Concave 123aa)",
         "sequence": seq_08,
-        "switch_motif": "Concave groove H4-H6-H11 cluster",
+        "switch_motif": "Concave groove multi-repeat H-cluster array",
         "epitope": "Apical ridge T305-G347"
     })
 
-    # Design 09: DARPin-TfR1-B04 (High-affinity DARPin with Tyr-Phe binding surface)
+    # Design 09: DARPin-TfR1-B04 (High-affinity 2-Repeat DARPin: 123 aa)
     seq_09 = (
-        "DLGKKLLEAARAGQDDEVRILMANGADVNA"
-        "KDHHGYTPLHLAAYFGHLEIVEVLLKAGADVNA"
-        "QDKFGKTAFDISIDNGNEDLAEILQKA"
-    ) # 91 aa
+        "DLGKKLLEAARAGQDDEVRILMANGADVNA"     # N-cap (30 aa)
+        "KDHHGYTPLHLAAYFGHLEIVEVLLKAGADVNA" # Repeat 1: H3-H4 dyad + Y6-Y10 face (33 aa)
+        "KDSSGWTPLHLAASHGHLEIVEVLLKNGADVNA" # Repeat 2: W6 clamp + H11 sensor (33 aa)
+        "QDKFGKTAFDISIDNGNEDLAEILQKA"       # C-cap (27 aa)
+    ) # Total: 123 aa
     candidates.append({
         "id": "TFR1_DARPIN_B04",
         "name": "TFR1_DARPIN_B04",
         "class": "single_chain",
-        "scaffold": "Designed Ankyrin Repeat Protein (Tyr-Phe Paratope)",
+        "scaffold": "Designed Ankyrin Repeat Protein (2-Module Tyr-Phe Paratope 123aa)",
         "sequence": seq_09,
         "switch_motif": "H3-H4 dyad coupled to Y6-Y10 hydrophobic face",
         "epitope": "Apical ridge T305-G347"
     })
 
-    # Design 10: DARPin-TfR1-B05 (Tri-Histidine Repeat DARPin)
+    # Design 10: DARPin-TfR1-B05 (Tri-Histidine 2-Repeat DARPin: 123 aa)
     seq_10 = (
-        "DLGKKLLEAARAGQDDEVRILMANGADVNA"
-        "KDHHDHTPLHLAASHGHLEIVEVLLKNGADVNA"
-        "QDKFGKTAFDISIDNGNEDLAEILQKA"
-    ) # 90 aa
+        "DLGKKLLEAARAGQDDEVRILMANGADVNA"     # N-cap (30 aa)
+        "KDHHDHTPLHLAASHGHLEIVEVLLKNGADVNA" # Repeat 1: H3-H4-H11 tri-His network (33 aa)
+        "KDRAGYTPLHLAAYHGHLEIVEVLLKHGADVNA" # Repeat 2: Y6 aromatic face + H11 switch (33 aa)
+        "QDKFGKTAFDISIDNGNEDLAEILQKA"       # C-cap (27 aa)
+    ) # Total: 123 aa
     candidates.append({
         "id": "TFR1_DARPIN_B05",
         "name": "TFR1_DARPIN_B05",
         "class": "single_chain",
-        "scaffold": "Designed Ankyrin Repeat Protein (Tri-His Network)",
+        "scaffold": "Designed Ankyrin Repeat Protein (2-Module Tri-His Network 123aa)",
         "sequence": seq_10,
         "switch_motif": "H3-H4-H11 cooperative switch against Lys344",
         "epitope": "Apical ridge T305-G347"
